@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Analyzing the Universe</title>
+
+        <!-- Bootstrap -->
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+        
+
+        
+        
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+ 
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <!-- Brand/logo -->
+                    <a class="navbar-brand" onclick="showHome();" href="#home">
+                        <img alt="logo" src="img/logo.png" class="img-fluid" >
+                    </a>
+                </div>
+
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                          <a class="nav-link " onclick="showHome();" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" onclick="showStudy();" href="#study">Study</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" onclick="showVideo();" href="#video">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" onclick="showGalley();" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" onclick="showBlog();" href="#blog">Blog</a>
+                        </li>
+                        
+                         <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                            About us
+                            </a>
+                            <div class="dropdown-menu bg-dark ">
+                            <a class="dropdown-item text-white-50" onclick="showContact();">Contact us</a>
+                            <a class="dropdown-item text-white-50" href="#">Support us</a>
+                            </div>
+                        </li>
+                    </ul>
+          
+                    
+
+                    <!--search box-->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text"  placeholder="Search">
+                        <a class="navbar-brand" id="search" href="#">
+                            <img alt="logo" src="img/Search_icon.svg.png" class="img-fluid" >
+                        </a>
+                        
+                        
+                    </form>
+
+                    <button class="btn btn-primary me-2" type="button" onclick="showRegistration();">Log In</button>
+                </div>
+            </div>
+
+            
+            
+           
+          </nav>
+
+          
+<!--   --------------------------------------->
+
+        <!--Create the home section with title, goal and joins us button-->
+        <div class="jumbotron" id="home">
+            <div class="container">
+                <img id="logo-header" src="img/logo.png" class="img-fluid">
+                <h1>Analyzing the Universe</h1>
+                <h4>Go from Zero knowledge about data analyzing and Universe to be a professional data analysis.</h4>
+                <p><a class="btnn" onclick="showRegistration();" >Join us Now!</a></p>
+            </div>
+        </div>
+
+        
+
+            
+        
+<!---------------------------------------------------->
+        <div id="study">
+                <!--Create header-->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="mt-5">Study About Universe</h1>
+                </div>
+            </div>
+            
+            <!--Create icons with text-->
+            <div class="icons">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <img src="img/reading.png" alt="bodyimage" class="img-fluid">
+                            <h3>Read it</h3>
+                            <p>We offer a huge amount of ebooks about unverisal which is free for download.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/study.png" alt="bodyimage" class="img-fluid">
+                            <h3>Study it</h3>
+                            <p>We offer some online courses which only cost $10 each.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/education.png" alt="bodyimage" class="img-fluid">
+                            <h3>Educate it</h3>
+                            <p>We offer a certificate when you finish your courses.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Create contact button-->
+            <div class="contact">
+                <div class="container">
+                    <a onclick="showContact();" class="btnn">Get in touch!</a>
+                </div>
+            </div>
+        </div>
+
+
+
+<!------------------------------------------------------------>
+        <div id="video" class="container-fluid">
+            <div class="jumbotron">
+                
+                <h1 class="mt-5">Videos</h1>
+                <iframe  src="https://www.youtube.com/embed/uD4izuDMUQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+            
+        </div>
+        
+<!------------------------------------------------------------>
+
+        <div id="gallery" class="container-fluid">
+            <div class="jumbotron">
+                <div class="container" >
+                    <h1 class="mt-5">Galleries</h1>
+                </div>
+            </div>
+        
+            
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="img/Solar System.jpg" alt="solar system" class="d-block"  >
+                    <div class="carousel-caption">
+                        
+                        <h2>Solar system</h2>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/Galaxies.jpg" alt="Galaxies" class="d-block" >
+                    <div class="carousel-caption">
+                        <h2>Galaxies</h2>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="img/black hole.jpg" alt="Black Holes" class="d-block">
+                    <div class="carousel-caption">
+                        <h2>Black Hole</h2>
+                    </div>
+                    </div>
+                </div>
+        
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                </div>
+            </div>
+        </div>
+
+<!---------------------------------------------->
+        <div id="blog" class="container-fluid">
+            
+            <div class="jumbotron" >
+                <h1 class="mt-5">Blog about Universe</h1>
+                <iframe src="https://openai.com/blog/"></iframe>
+            </div>
+            
+        </div>
+
+<!---------------------------------------------->
+        <div id="contact" class="container-fluid">
+                    
+            <div class="con">
+                <h1 class="mt-5">Contact us</h1>
+                <h3 class="mt-4">You can call us on 0800 000 000 Monday to Friday 8am - 8pm, <br/>
+                    Saturday and Sunday, 8am - 6pm.</h3>
+                <br/>
+                <h1 class="mt-5">Other ways to reach us</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <img src="img/email-us.svg" alt="bodyimage" class="img-fluid">
+                            <h3>Email us</h3>
+                            <p>Private Bag 00000<br/>
+                                Victoria St West<br/>
+                                Auckland 0000</p>
+                            
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <img src="img/ways-to-bank-digital-gomoney-ib.svg" alt="bodyimage" class="img-fluid">
+                            <h3>Via Twitter</h3>
+                            <p>Follow us on Twitter.</p>
+                            <button id="follow" type="submit">Follow us</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+<!-----registration----------------------------------------->
+        <div id="registration">
+            <div class="jumbotron" >
+                <h1 class="mt-5">Create an Account or Sign In.</h1>
+                
+            </div>
+            <div id="regContainer">
+                
+                <div class = 'authentication'>
+                    <p>By continuing, you agree to our Terms of Use and Privacy Policy.</p>
+                    <form >
+                        <div class="mb-3 mt-3">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd">Password:</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Continue with Email</button>
+                      </form>
+                
+                </div>
+            </div>
+        </div>
+
+        <!--Create Footer-->
+        <div class="footer">
+            <div class="container">
+                <p>&copy; Make by Rainbow.</p>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js.js"></script>
+    </body>
+    
+</html>

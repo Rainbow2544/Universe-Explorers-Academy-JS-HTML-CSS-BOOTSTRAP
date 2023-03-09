@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ways-to-bank-digital-gomoney-ib</title>
+    <g id="ways-to-bank-digital-gomoney-ib" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(1.000000, 8.000000)" stroke-width="1.5">
+            <path d="M37.2868939,39.594938 L2.58099457,39.594938 C1.15743391,39.5902985 0.00453641171,38.4111988 -1.04916076e-14,36.9552844 L-1.04916076e-14,2.63965354 C0.00453641171,1.18373922 1.15743391,0.00463951197 2.58099457,6.99440506e-15 L56.7820732,6.99440506e-15 C58.2056338,0.00463951197 59.3585313,1.18373922 59.3630678,2.63965354 L59.3630678,10.5706029" id="Path" stroke="#7A99AC"></path>
+            <polyline id="Path" stroke="#7A99AC" points="37.2868059 34.3155795 5.16190123 34.3155795 5.16190123 5.27939057 54.2010074 5.27939057 54.2010074 10.5704723"></polyline>
+            <line x1="16.7765108" y1="47.5139286" x2="33.5530362" y2="47.5139286" id="Path" stroke="#007DBA"></line>
+            <line x1="25.8100253" y1="39.594938" x2="25.8100253" y2="47.5139286" id="Path" stroke="#007DBA"></line>
+            <line x1="33.5530362" y1="39.594938" x2="33.5530362" y2="47.5139286" id="Path" stroke="#007DBA"></line>
+            <rect id="Rectangle" stroke="#7A99AC" x="40.6364178" y="13.9777726" width="21.3851037" height="33.53573" rx="2.91615136"></rect>
+            <line x1="62.0215215" y1="41.681202" x2="40.6364178" y2="41.681202" id="Path" stroke="#7A99AC"></line>
+            <ellipse id="Oval" stroke="#7A99AC" cx="51.3289696" cy="44.5973512" rx="1" ry="1"></ellipse>
+            <line x1="62.0215215" y1="19.8100732" x2="40.6364178" y2="19.8100732" id="Path" stroke="#7A99AC"></line>
+            <line x1="47.7647857" y1="16.8939218" x2="54.8931536" y2="16.8939218" id="Path" stroke="#7A99AC"></line>
+            <rect id="Rectangle" stroke="#007DBA" x="10.0046844" y="10.5706029" width="10.7838035" height="11.02889"></rect>
+            <rect id="Rectangle" stroke="#007DBA" x="24.5145272" y="10.5706029" width="10.7838035" height="11.02889"></rect>
+            <rect id="Rectangle" stroke="#007DBA" x="45.9370689" y="23.7506242" width="10.7838035" height="11.02889"></rect>
+        </g>
+    </g>
+</svg>

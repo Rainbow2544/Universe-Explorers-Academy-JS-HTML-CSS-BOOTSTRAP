@@ -1,0 +1,207 @@
+body{
+    font-family: 'Vollkorn', sans-serif;
+    position: relative;
+    background-image:url("img/ezgif.com-gif-maker.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+    
+}
+nav img{
+    height:30px;
+    width: 50px;
+    overflow: hidden;
+    float: left;
+}
+
+.dropdown-menu > a:hover {
+    background-image: none;
+    background-color: rgb(96, 96, 113);
+}
+
+#logo-header{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 30px;
+}
+#search img{
+    height:30px;
+    width: 40px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+/*Style jumbotron*/
+.jumbotron{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    margin:50px 0 50px 0;
+    letter-spacing: 2.5px;
+}
+.col-md-4{
+    text-align: center;
+    color: #fff;
+}
+
+.icons p{
+    font-size: 15px;   
+}
+.icons img{
+    height: 300px;
+    width: 300px;
+}
+#home{
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0 150px 0;
+}
+#home h1{
+    margin-bottom: 30px;   
+}
+#home h4{
+    margin-bottom: 50px;   
+}
+#home .btnn{
+
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+#study{
+    padding: 60px 0 50px 0;
+}
+/*Style contact button*/
+.contact{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+
+.btnn{
+    background-color: rgba(204, 67, 219, 0.74);
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+    letter-spacing: 1.3px;
+}
+
+.btnn:hover{
+    background-color: rgba(165, 24, 149, 0.5); 
+    color: #fff;
+    border: none;
+}
+#video{
+    padding: 50px 0 0px 0;
+}
+#video iframe{
+    width: 80%;
+    height: 500px;
+    margin-top: 20px;
+
+}
+
+#gallery{
+    padding: 60px 0 50px 0;
+}
+#myCarousel{
+    width: 90%;
+    margin: 0 auto;
+}
+.carousel-inner {
+    height:500px;
+}
+.carousel-inner img{
+    height:450px;
+    width:80%;
+    margin: 0 auto; /*sit centrally within it's parent container.*/
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 50px;
+}
+#blog{
+    padding: 60px 0 50px 0;
+}
+#blog iframe{
+    width: 90%;
+    height: 550px;
+    margin-top: 20px;
+
+}
+#contact{
+    background: linear-gradient(rgb(17, 0, 255),rgb(221, 235, 234));
+    padding: 50px;
+    opacity:90%;
+
+}
+#contact .con{
+    color: rgb(44, 32, 62);
+}
+#follow{
+    width:150px;
+    height:50px;
+}
+#follow:hover{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+#registration{
+    padding: 50px 0 20px 0;
+}
+#regContainer{
+    opacity:90%;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgb(0, 179, 255),rgb(241, 245, 244));
+    border-radius: 10px;
+}
+.authentication{
+    padding: 10%;
+}
+.authentication p{
+    font-size: 13px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: grey;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+/*use media queries to change icons size in small devices*/
+@media ( max-width: 768px){
+    .bodyimage{
+        height: 70px;   
+    }
+    #home{
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        padding: 150px 0 0px 0;
+    }
+    #study{
+        padding: 280px 0 0px 0;
+    }
+    #video{
+        padding: 280px 0 0px 0;
+    }
+    #gallery{
+        padding: 280px 0 0px 0;
+    }
+    #blog{
+        padding: 280px 0 0px 0;
+    }
+}
+

@@ -1,6 +1,6 @@
 # Universe Explorers Academy (JS, HTML, CSS, BOOTSTRAP)
 
-This is an example front-end website for learning about the universe. This website showcases my skills in HTML, CSS, and JavaScript, and serves as a portfolio piece.
+This is an example front-end website for learning about the universe. This website showcases my skills in HTML, CSS, Bootstrap and JavaScript, and serves as a portfolio piece.
 Here is the <a href="https://universe-company-web.vercel.app/"> link </a>.
 <br/>
 
